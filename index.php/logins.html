@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from simpan-spbe.bppt.go.id/index.php/logins by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Apr 2021 04:01:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../assets/docly/img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/docly/assets/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../assets/docly/css/style.css">
+
+    <!-- un-used css -->
+      <!-- icon css-->
+      <!-- <link rel="stylesheet" href="https://simpan-spbe.bppt.go.id/assets/docly/assets/elagent-icon/style.css"> -->
+
+      <!-- <link rel="stylesheet" href="https://simpan-spbe.bppt.go.id/assets/docly/assets/animation/animate.css"> -->
+      <!-- <link rel="stylesheet" href="https://simpan-spbe.bppt.go.id/assets/docly/css/responsive.css"> -->
+    <!-- un-used css -->
+    <title>SIMP@N</title>
+</head>
+
+<body data-scroll-animation="true">
+    <div class="body_wrapper">
+        <section class="signup_area">
+            <div class="row ml-0 mr-0">
+                <div class="sign_left signin_left">
+                    <h2>SIMP@N SPBE</h2>
+                    <h4 style="color: rgb(224, 223, 223);">Sistem Basis Pengetahuan</h4>
+                    <img class="position-absolute top" src="../assets/docly/img/signup/top_ornamate.png" alt="top">
+                    <img class="position-absolute bottom" src="../assets/docly/img/signup/bottom_ornamate.png" alt="bottom">
+                    <img class="position-absolute middle" src="../assets/docly/img/signup/3.png" width="400" alt="bottom">
+                    <div class="round"></div>
+                </div>
+                <div class="sign_right signup_right">
+                    <div class="sign_inner signup_inner">
+                        <div class="text-center">
+                            <h3>SIMP@N SPBE</h3>
+                            <p>Bagi anda yang sudah terdaftar, silahkan login</p>
+                        </div>
+                        <div class="alert alert-danger alert-dismissible" id="alert" role="alert" hidden>
+                            <font id="alert-message"></font>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">x</button>
+                        </div>
+                        <div class="divider"></div>
+                        <form class="row login_form">
+                            <div class="col-lg-12 form-group">
+                                <div class="small_text">Nama Akun</div>
+                                <input type="text" name="username" class="form-control" id="username" placeholder="Isi nama akun kamu" required>
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <div class="small_text">Kata Sandi</div>
+                                <div class="confirm_password">
+                                    <div class="input-group">
+                                        <input id="password" name="password" type="password" class="form-control" placeholder="Isi kata sandi anda" autocomplete="off" required>
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn btn-success btn-show-password" onclick="show_password();">Lihat Sandi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 text-center">
+                                <button type="button" onclick="process_login()" style="width: 100%;" class="btn action_btn thm_btn">Masuk</button>
+                            </div>
+                        </form>
+                        <div class="divider"></div>
+                            <div class="col-lg-12" style="margin-top: 10px;">
+                                <div class="row">
+                                    <div class="col-lg-6" >
+                                        Kembali ke <a href="beranda.html" style="text-decoration: underline;">Beranda</a>
+                                    </div>
+                                    <div class="col-lg-6" style="text-align:right;">
+                                        <a href="logins/lupa_password.html" style="text-decoration: underline;">Lupa Sandi ?</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="modal fade" id="modal-role" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Peran Pengguna</h5>
+                </div>
+                <div class="modal-body" id="list-role">
+
+                </div>
+                <div class="modal-footer">
+                    <span type="button" class="btn btn-primary" onclick="pilih_role()">Pilih</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var base_url = "index.html";
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/docly/js/jquery-3.2.1.min.js"></script>
+    <script src="../assets/docly/js/pre-loader.js"> </script>
+    <script src="../assets/docly/assets/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/docly/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/docly/js/parallaxie.js"></script>
+    <script src="../assets/docly/js/TweenMax.min.js"></script>
+    <script src="../assets/docly/assets/wow/wow.min.js"></script>
+    <script src="../assets/docly/js/main.js"></script>
+    <script src="../assets/docly/js/login6260.js?v=20210429110119"></script>
+</body>
+
+
+<!-- Mirrored from simpan-spbe.bppt.go.id/index.php/logins by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Apr 2021 04:01:46 GMT -->
+</html>
